@@ -1,0 +1,62 @@
+
+.education__container {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+    margin: 10px;
+  
+}
+
+
+ .education__container .box {
+    width: 25rem;
+    margin: .5rem 0;
+    padding-left: 3rem;
+    border-left: 0.2rem solid rgb(236, 234, 234);
+    position: relative;
+    
+}
+@media screen  and (max-width: 600px){
+    .education__container .box ,.box__container .box {
+        width: 90%;
+        margin: 2rem 0;
+       
+        
+    }
+}
+ .education__container .box .service-icon-box {
+    position: absolute;
+    top: -1.5rem;
+    left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.education__container .box .service-icon {
+    width: 65%;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #111;
+}
+.education__container .box h3{
+  
+    font-weight:600;
+    font-size: 18px;
+    padding-bottom: 0px;
+}
+.education__container .box p{
+    font-family: 'Nunito', sans-serif;
+   font-size: 14px;
+}
+@media screen and (max-width: 600px) {
+    .skill-head{
+        font-size: 18px;
+    }
+}

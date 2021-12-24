@@ -1,0 +1,144 @@
+.home__portfolio .home__portfolio-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    font-family: 'Nunito', sans-serif;
+
+}
+.home__portfolio-header .border {
+    width: 40%;
+    background: rgb(100, 100, 100);
+    height: 3px;
+}
+@media screen and (max-width: 576px) {
+    .home__portfolio-header .border {
+        width: 30%;
+        background: rgb(100, 100, 100);
+        height: 3px;
+    }  
+}
+@media screen and (max-width: 420px) {
+    .home__portfolio-header .border {
+        width: 0%;
+        background: rgb(131, 131, 131);
+        height: 2px;
+    }  
+}
+.home__portfolio{
+    background-color: rgb(252, 254, 254);
+}
+.home__portfolio .home__portfolio-header h1 {
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: none;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.home__portfolio .home__portfolio-header button {
+    border-radius: 3px;
+    outline: none;
+    border:none;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    background-color: #0059B2;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+.home__portfolio-container {
+    display: flex;
+    align-items: center;
+}
+.home__portfolio-container-details{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-left: -20px;
+    background: #FFFFFF;
+    border-radius: 4px;
+  
+}
+.href a {
+    text-decoration: none;
+    color: black;
+}
+.href a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.home__portfolio-container-details {
+    padding: 30px;
+   
+}
+.home__portfolio-container-details h6 {
+    color: darkblue;
+    font-size: 15px;
+}
+.home__portfolio-container-details h2 {
+    font-weight: bold;
+    padding: 2px 0;
+    font-family: 'Nunito', sans-serif;
+}
+.home__portfolio-container-img img {
+    height: 380px;
+    object-fit: cover;
+}
+.home__portfolio-container-details p {
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.home__portfolio-container-details .tools {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.home__portfolio-container-details .tools li {
+    margin-right: 10px;
+    font-size: 12px;
+    background-color: rgb(228, 222, 222);
+    padding: 7px 12px;
+    margin: 5px;
+    border-radius: 4px;
+    
+}
+.home__portfolio-container-details .tools{
+    margin: 0;
+    padding: 0px;
+}
+.href {
+    padding: 10px 0;
+}
+.href i {
+    font-size:20px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+@media (max-width: 768px) {
+    .home__portfolio-container-details{
+       margin-top: -20px;
+        margin-left: -0px; 
+    }
+    .row {
+        margin: 0;
+    }
+    .home__portfolio-container-img img {
+        height:auto;
+        object-fit: cover;
+    }
+    .home__portfolio .home__portfolio-header button {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+    .home__portfolio .home__portfolio-header h1 {
+        font-size: 20px;
+        font-weight: 800;
+      
+    }       
+    .home__portfolio {
+        margin-top: 40px;
+    }
+}

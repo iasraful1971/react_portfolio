@@ -1,0 +1,80 @@
+.conatct__container {
+   text-align: center;
+   justify-content: center;
+   display: flex;
+   text-align: center;
+ 
+  
+}
+.conatct__container{
+    font-size: 16px;
+}
+.contact__heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form__container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+ 
+    .form__container .input, 
+    .form__container .text, 
+    .form__container .sumit{ 
+        margin: 10px 0;
+    }
+    .form__container .input {
+        font-size: 20px;
+    }
+     .form__container .input::placeholder{
+        font-size: 16px;
+    }
+    .form__container .text {
+        padding:10px 0 60px 20px;
+        border: 1px solid rgb(202, 195, 195);
+        border-radius: 4px;
+        outline:blue;
+        font-size: 16px;
+        font-family: 'Nunito', sans-serif;
+    }
+    .form__container .text::placeholder {
+        font-size: 14px;
+        font-family: 'Nunito', sans-serif;
+    }
+    .form__container .submit{
+        margin-top: 10px;
+        font-family: 'Nunito', sans-serif;
+    }
+    .form__container .submit {
+        margin-top: 10px;
+        padding: 10px 0;
+        background-color:#E0EFFF;
+        font-family: 'Nunito', sans-serif;
+        color: blue;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        font-weight:500;
+        text-transform: capitalize;
+        border-radius: 4px;
+        transition: all .5s ease-out;
+    }
+    .form__container .submit:hover {
+        background-color: #444;
+        color: cornsilk;
+    }
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .form__container {
+        width: 300px;
+       
+    }
+}

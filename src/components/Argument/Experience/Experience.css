@@ -1,0 +1,39 @@
+.experience__container{
+   
+    margin: 20px;
+}
+.experence-box {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr );
+    grid-gap:0 20px ;
+
+}
+@media screen and (max-width: 576px) {
+    .experence-box {
+        grid-template-columns: repeat(1, 1fr );
+    }
+}
+.experience {
+    margin: 20px 0px;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(193, 197, 202, 0.2) 0px 8px 24px;
+    width: 100%;
+    
+}
+.experience h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    padding: 5px 0;
+}
+.experience h4 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Nunito', sans-serif;
+}
