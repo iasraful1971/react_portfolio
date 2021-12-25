@@ -14,7 +14,7 @@ const HeroSection = () => {
     return (
         <>
          <div className="hero__section section__margin">
-            <div  data-aos="fade-right" className="hero__section-text">
+            <div  data-aos="fade-up" className="hero__section-text">
                 <p>Hello there , I'm</p>
                 <h1>Muhammad Asraful</h1>
                 <ul className="text-bold">
@@ -36,7 +36,7 @@ A self-motivated and enthusiastic web developer with a deep interest in JavaScri
     </Link>
 </div>
             </div>
-            <div  data-aos="fade-left" className="hero__sention-img">
+            <div  data-aos="fade-down" className="hero__sention-img">
                 <img src={pic} alt="" />
             </div>
          

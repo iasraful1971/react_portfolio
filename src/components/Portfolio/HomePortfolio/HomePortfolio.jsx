@@ -31,10 +31,10 @@ const HomePortfolio = () => {
                 </div>
                 {/* port folio  */}
                 <div className="home__portfolio-container row">
-                    <div data-aos='fade-right' className="home__portfolio-container-img col-md-7 col-lg-7 md-sm-12 col-12">
+                    <div data-aos='fade-down' className="home__portfolio-container-img col-md-7 col-lg-7 md-sm-12 col-12">
                             <img className="img-fluid" src={red} alt="" />
                     </div>
-                    <div  data-aos='fade-left' className="home__portfolio-container-details col-md-5 col-lg-5 md-sm-12 col-12">
+                    <div  data-aos='fade-up' className="home__portfolio-container-details col-md-5 col-lg-5 md-sm-12 col-12">
                         <h6>01</h6>
                         <h2>Red Onion foods</h2>
                         <p>A single page restaurant app where people are able to select food in their cart and checkout the cart with their information .</p>
@@ -59,10 +59,10 @@ const HomePortfolio = () => {
 
                 {/* port folio  */}
                 <div className="home__portfolio-container py-5 my-5 row">
-                    <div  data-aos='fade-right' className="home__portfolio-container-img col-md-7 col-lg-7 md-sm-12 col-12">
+                    <div  data-aos='fade-up' className="home__portfolio-container-img col-md-7 col-lg-7 md-sm-12 col-12">
                             <img className="img-fluid" src={doctor} alt="" />
                     </div>
-                    <div  data-aos='fade-left' className="home__portfolio-container-details col-md-5 col-lg-5 md-sm-12 col-12">
+                    <div  data-aos='fade-down' className="home__portfolio-container-details col-md-5 col-lg-5 md-sm-12 col-12">
                         <h6>02</h6>
                         <h2>Doctor's Portal</h2>
                         <p>A Single page web app with dashboard where people can pick the date and time and fix an appointment. A doctor can review his appointments and prescribe medicine to a Patient from his dashboard</p>
@@ -87,10 +87,10 @@ const HomePortfolio = () => {
 
                 {/* port folio  */}
                 <div className="home__portfolio-container row">
-                    <div  data-aos='fade-right' className="home__portfolio-container-img col-md-7 col-lg-7 md-sm-12 col-12">
+                    <div  data-aos='fade-down' className="home__portfolio-container-img col-md-7 col-lg-7 md-sm-12 col-12">
                             <img className="img-fluid" src={panda} alt="" />
                     </div>
-                    <div  data-aos='fade-left' className="home__portfolio-container-details col-md-5 col-lg-5 md-sm-12 col-12">
+                    <div  data-aos='fade-up' className="home__portfolio-container-details col-md-5 col-lg-5 md-sm-12 col-12">
                         <h6>03</h6>
                         <h2>Red Onion foods</h2>
                         <p>A simple , static and one page Ecommerce website design . It is a XD to HTML conversion . The website fully made with bootsrap5. This is all device friendly website</p>

@@ -22,7 +22,7 @@ const NavbarOne = () => {
             <NavLink to="/portfolio">WORKS</NavLink>
             <NavLink to="/blog">BLOGS</NavLink>
             <NavLink to="/contact">CONTACT</NavLink>
-            <NavLink to="/argument">LET'S ARGUMENTS</NavLink>
+            <NavLink to="/argument">LET'S AGGREMENT</NavLink>
         </div>
     
 

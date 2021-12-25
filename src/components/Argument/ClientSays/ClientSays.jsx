@@ -6,7 +6,7 @@ import './ClientSays.css';
 const ClientSays = () => {
     return (
     
-<Carousel  enableAutoPlay>
+<Carousel  enableAutoPlay showArrows={false}>
 <div className='reviews'>
           <p style={{fontSize:'16px'}}> <i class="fas fa-quote-left"></i> Best experience on the platform till now. Muhammad Asaraful is extremely good developer and has great product sense. he is very polite and great to work with. Very sincere and dedicated. Has great sense of coding capabilities and is a must go to seller on the platform. Already having repeat orders with him. <i class="fas fa-quote-right"></i>
           <h6> - Arnald David</h6>

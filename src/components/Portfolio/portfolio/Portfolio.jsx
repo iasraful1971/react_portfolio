@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import cbr from '../../../images/cbr.png';
+import inc from '../../../images/davly.png';
 import doctor from '../../../images/doctor.png';
 import { default as ebato } from '../../../images/ebantoSc.png';
 import education from '../../../images/education.png';
 import emajhon from '../../../images/emajhon.png';
 import food from '../../../images/food.png';
 import gpt3 from '../../../images/gpt3.png';
-import inc from '../../../images/davly.png';
 import jsBangla from '../../../images/jsBangladesh.png';
 import lavis from '../../../images/lavish.png';
 import manpo from '../../../images/manPo.png';
@@ -165,10 +165,10 @@ const [isSeondCLick, setIsSecondClick] = useState(false);
                           
                             <hr />
                             <div className="href">
-                            <a href="https://github.com/iasraful1971/incIT-react.git" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/iasraful1971/dvaly.git" target="_blank" rel="noopener noreferrer">
                             <i class="fab fa-github"></i>
                             </a>
-                          <a href="https://incteams.netlify.app/"  rel="noopener noreferrer" target="_blank"> <i class="fas fa-external-link-alt"></i></a>
+                          <a href="https://sleepy-gates-a27efc.netlify.app/"  rel="noopener noreferrer" target="_blank"> <i class="fas fa-external-link-alt"></i></a>
                         </div>
 
                         </div>
