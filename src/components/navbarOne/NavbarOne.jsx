@@ -96,7 +96,7 @@ const NavbarOne = () => {
             <NavLink to="/portfolio">WORKS</NavLink>
             <NavLink to="/blog">BLOGS</NavLink>
             <NavLink to="/contact">CONTACT</NavLink>
-            <NavLink to="/argument">LET'S ARGUMENTS</NavLink>
+            <NavLink to="/argument">LET'S AGREEMENT</NavLink>
           </div>
           <div className="gpt3__navbar-menu_container-links-sign">
             <p>Sign in</p>

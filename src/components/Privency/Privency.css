@@ -1,0 +1,33 @@
+.privency__container h2 {
+  font-size: 22px;
+  padding: 15px 0;
+  font-weight: bold;
+  text-align: justify;
+}
+.privency__container p {
+  font-size: 15px;
+  text-align: justify;
+}
+.no-justify {
+  text-align: left;
+  font-size: 15px;
+}
+.no-justify a {
+  font-weight: bold;
+}
+@media screen and (max-width: 576px) {
+  .privency__container h2 {
+    font-size: 20px;
+    padding: 15px 0;
+    font-weight: bold;
+    text-align: justify;
+  }
+  .privency__container p {
+    font-size: 14px;
+    text-align: justify;
+  }
+  .no-justify {
+    text-align: left;
+    font-size: 14px;
+  }
+}

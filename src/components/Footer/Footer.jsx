@@ -72,7 +72,7 @@ const Footer = () => {
 
                 <div className="gpt3__footer-links_div">
                     <h4>Terms & Conditions</h4>
-                    <p>Privacy Policy</p>
+                   <Link to="/privency"> <p>Privacy Policy</p></Link>
                   <Link to="/contact"><p>Contact</p></Link>
                     
                 </div>
