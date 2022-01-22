@@ -13,7 +13,7 @@
   font-size: 15px;
 }
 .no-justify a {
-  font-weight: bold;
+  font-weight: 500;
 }
 @media screen and (max-width: 576px) {
   .privency__container h2 {

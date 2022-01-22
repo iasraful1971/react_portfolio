@@ -4,7 +4,7 @@ const Privency = () => {
     return (
         <div className="privency section__margin">
             <div className="privency__container">
-                <h2>Who I am ? </h2>
+                <h2>Who we are ? </h2>
                 <span className="no-justify">My website address is  <a rel="noopener noreferrer" href="https://asraful-dev.netlify.app/" target="_blank">https://asraful-dev.netlify.app/</a> </span>
            <h2> Privecy and Policy</h2>
 <p>We are committed to protect and respect your privacy while you are accessing or using this website. Our responsibilities include providing you with the correct information, complete website/user data management while securing the data handled by us. Our data collection and management policy is at the core of our privacy policy, which entails information collection, processing, segregation and data reuse. This website is the primary source of contact for all our existing, past and prospective clients. By using or accessing this website, you agree to the usage terms and conditions stated here below.</p>
