@@ -12,8 +12,10 @@ const Navbar = () => {
       <nav className="main-nav">
         {/* 1st logo part  */}
         <div className="logo">
-          <h1>Muhammad Asraful </h1>
+         
+         <h1>Muhammad Asraful </h1>
           <p>Full Stack web developer, Tech Entrepreneur & Coding Evangelist</p>
+         
         </div>
 
         {/* 2nd menu part  */}

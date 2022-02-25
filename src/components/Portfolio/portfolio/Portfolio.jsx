@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import cbr from '../../../images/cbr.png';
 import inc from '../../../images/davly.png';
-import doctor from '../../../images/doctor.png';
 import { default as ebato } from '../../../images/ebantoSc.png';
 import education from '../../../images/education.png';
 import emajhon from '../../../images/emajhon.png';
@@ -14,10 +13,11 @@ import manpo from '../../../images/manPo.png';
 import myPO from '../../../images/mycv.png';
 import panda from '../../../images/pandae.png';
 import psye from '../../../images/psychecareMAin.png';
-import onion from '../../../images/redOnion.png';
 import res from '../../../images/restaurent.png';
 import rymo from '../../../images/rymo.png';
+import vamix from '../../../images/vamix.png';
 import weather from '../../../images/waether app.png';
+import zomato from '../../../images/zomatoapp.png';
 import './portfolio.css';
 
 const Portfolio = () => {
@@ -38,49 +38,49 @@ const [isSeondCLick, setIsSecondClick] = useState(false);
 
                         
                         <div className="blog-colum">
-                        <img className="img-fluid" src={onion} alt="" />
-                            <h3>Red Onion foods</h3>
-                            <p>A single page restaurant app where people are able to select food in their cart and checkout the cart with their information</p>
+                        <img className="img-fluid" src={vamix} alt="" />
+                        <h3>Vamix eCommerce</h3>
+                        <p>The multiple page ecommerce web app where people are able to add product to cart and see the details information about products and user may login and register.</p>
                             <div className="tools">
                                 <div className="features">
                                 <li>React.js</li>
-                                <li>Node.js</li>
-                                <li>Express.js</li>
                                 <li>Firebase</li>
-                                <li>MongoDB</li>
-                                <li>Bootstrap5</li>
+                                <li>Redux</li>
+                                <li>Material ui</li>
+                                <li>React-Bootstrap</li>
+                                <li>Css</li>
                                 </div> 
                             </div>
                           
                             <hr />
                             <div className="href">
-                            {/* <a href="https://github.com/iasraful1971/LAVISH-frontEnd.git" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/iasraful1971/vamix_frontend_ecommerce.git" target="_blank" rel="noopener noreferrer">
                             <i class="fab fa-github"></i>
-                            </a> */}
-                          <a href="https://red-onion-food.netlify.app/"  rel="noopener noreferrer" target="_blank"> <i class="fas fa-external-link-alt"></i></a>
+                            </a>
+                          <a href="https://vamix.netlify.app/"  rel="noopener noreferrer" target="_blank"> <i class="fas fa-external-link-alt"></i></a>
                         </div>
                         </div>
                         <div className="blog-colum">
-                        <img className="img-fluid" src={doctor} alt="" />
-                            <h3>Doctor's Portal</h3>
-                            <p>A Single page web app with dashboard where people can pick the date and time and fix an appointment. A doctor can review his appointments.</p>
+                        <img className="img-fluid" src={zomato} alt="" />
+                        <h3>Zomato Food</h3>
+                        <p>A Single page restaurant web app with amazing carousel and modern design website using react.js. In this project you my filtering items easily.</p>
                             <div className="tools">
                                 <div className="features">
                                 <li>React.js</li>
-                                <li>Node.js</li>
-                                <li>Express.js</li>
                                 <li>Firebase</li>
-                                <li>MongoDB</li>
-                                <li>Material UI</li>
+                                <li>Fetch API</li>
+                                <li>Use Context</li>
+                                <li>Slick Slider</li>
+                                <li>Css</li>
                                 </div> 
                             </div>
                           
                             <hr />
                             <div className="href">
-                            <a href="https://github.com/iasraful1971/doctorPortal-client.git" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/iasraful1971/zomato_frontend.git" target="_blank" rel="noopener noreferrer">
                             <i class="fab fa-github"></i>
                             </a>
-                          <a href="https://doctors-portal-react.firebaseapp.com/"  rel="noopener noreferrer" target="_blank"> <i class="fas fa-external-link-alt"></i></a>
+                          <a href="https://zomato-site.netlify.app/"  rel="noopener noreferrer" target="_blank"> <i class="fas fa-external-link-alt"></i></a>
                         </div>
                         </div>
                         <div className="blog-colum">

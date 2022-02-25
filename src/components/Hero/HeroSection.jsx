@@ -38,6 +38,9 @@ A self-motivated and enthusiastic web developer with a deep interest in JavaScri
             </div>
             <div  data-aos="fade-down" className="hero__sention-img">
                 <img src={pic} alt="" />
+                {/* <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_3ntisyac.json"  background="transparent"  speed="1"   loop  autoplay></lottie-player> */}
+
+
             </div>
          
          </div>   

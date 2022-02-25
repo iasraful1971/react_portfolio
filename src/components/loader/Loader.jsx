@@ -1,12 +1,12 @@
-import GridLoader from "react-spinners/GridLoader";
+import { RingLoader } from "react-spinners";
 import './Loader.css';
-
 const Loader = ({loading}) => {
 
     return (
         <div className="loader-container">
                     
-             <GridLoader  color={"#36D7B7"} loading={loading}  size={15} margin={2} />
+             <RingLoader className="load"
+            color={"#36D7B7"} loading={loading}  size={60} margin={2} />
 
         
         </div>

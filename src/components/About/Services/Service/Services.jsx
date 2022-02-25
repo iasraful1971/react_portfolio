@@ -48,7 +48,7 @@ const Services = () => {
                     </div>
                     
                     <h3>WP DEVELOPMENT</h3>
-                    <p>In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design</p>
+                    <p>WordPress is a Content Management System (CMS), which means it’s a software application that lets you create digital content and publish it online. One of the main differences between using a CMS like WordPress instead of sticking with HTML and CSS is that you avoid the need to individually edit and then reupload each page of a website any time you want to add content.</p>
                 </div>
                 <div class="box" data-aos="fade-up">
                     <div class="service-icon-box">

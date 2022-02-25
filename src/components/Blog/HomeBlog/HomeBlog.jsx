@@ -19,7 +19,7 @@ const HomeBlog = () => {
             <div className="section__margin home__blog my-5 pt-5">
                 <div className="row">
                  <div className="col-md-7 col-sm-12 col-12 home__blog-header">
-                 <div> <h1>Some of my Articles</h1>  </div> 
+                 <div> <h1>My  Articles</h1>  </div> 
                  <div className="border"></div>      
                 <Link to="/blog"> <div><button>All Blogs</button></div></Link>
                    </div>
@@ -38,7 +38,7 @@ const HomeBlog = () => {
                     <div className="home__blog-container py-5">
 
                       <a  rel="noopener noreferrer" href='https://medium.com/@iasraful107/a-simple-introduction-to-react-js-455e1eb01391' target="_blank">
-                      <div  data-aos="zoom-in-up"  className="blog-colum">
+                      <div  data-aos="fade-up"  className="blog-colum">
                             <img className="img-fluid" src={react} alt="" />
                             <h3>A simple Introduction to React.js And it's Features</h3>
                             <p>ReactJS is a JavaScript library used for building reusable UI components. According to React official documentation, the following is the…</p>
@@ -53,7 +53,7 @@ const HomeBlog = () => {
                         </div></a>
                         
                         <a rel="noopener noreferrer" href="https://medium.com/@iasraful107/understanding-react-router-with-a-simple-blog-application-d2f7a2a2de4" target="_blank">
-                        <div data-aos="zoom-in-up"  className="blog-colum">
+                        <div data-aos="fade-up"  className="blog-colum">
                         <img className="img-fluid" src={reactDom} alt="" />
                             <h3>Understanding React Router with a Simple Blog Application</h3>
                             <p>React router is arguably one of the coolest features there is in React. It is a famous library and familiarity in knowing how to use this…</p>
@@ -71,7 +71,7 @@ const HomeBlog = () => {
 
                         <a   rel="noopener noreferrer" href="https://medium.com/@iasraful107/a-little-about-javascript-and-its-importance-in-modern-times-3b37b9fcb33b" target="_blank">
                         
-                        <div data-aos="zoom-in-up" className="blog-colum">
+                        <div data-aos="fade-up" className="blog-colum">
                         <img className="img-fluid" src={js} alt="" />
                             <h3>A little about Javascript and its importance in modern times</h3>
                             <p>JavaScript is a programming language used primarily by Web browsers to create a dynamic and interactive experience for the user…</p>
