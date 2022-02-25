@@ -2,9 +2,9 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import reactDom from '../../../images/1_sX8rBJBol5dBp5WIJQrYyw.png';
 import js from '../../../images/js.jpeg';
 import react from '../../../images/react-blog.png';
+import reactDom from '../../../images/reactRouter.png';
 import './HomeBlog.css';
 const HomeBlog = () => {
     useEffect(() => {
