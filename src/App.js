@@ -10,6 +10,7 @@ import ArgumnetHome from './components/Argument/ArgumnetHome/ArgumnetHome';
 import BackToTop from './components/BackToTop/BackToTop';
 import Blog from './components/Blog/Blog';
 import Contact from './components/Contact/Contact';
+import Error from './components/Error/Error';
 import Footer from './components/Footer/Footer';
 import Loader from './components/loader/Loader';
 import NavbarOne from './components/navbarOne/NavbarOne';
@@ -67,10 +68,13 @@ function App() {
           <Route path="/privency">
             <Privency/>
           </Route>
+          <Route exact path="*">
+           <Error/>
+         </Route>
        </Switch>
        <Footer/>
          </BrowserRouter>
-
+          
        }
     {
       isLoading ? null :        <FloatingWhatsApp 

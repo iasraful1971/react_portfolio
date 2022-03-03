@@ -39,7 +39,7 @@ const About = () => {
                                 <p style={{textAlign:'justify'}}  data-aos='fade-up'>
                                 An aspiring MERN Stack Developer.I lost myself when I dive into the codes. I am a professional web designer and developer.No project is too big or too small for me. Recently I have completed react and node js. I am expertise in Html5, Css3, Javascript, Bootstrap, Jquery, React, Node JS, Express JS, Mongo DB.Resourceful Web Developer lends hands-on approach to customizing web presence strategy. More than 1+ years of experience working closely with Web Development to outline organizational needs and translate them into extensive lines of code that support objectives. Adept creation of scripts using HTML, CSS and JavaScript to convey unique branding and promote sales and marketing opportunities. Specialty supporting intricate backend needs and lending assistance throughout webpage lifecycle.
                                 </p>
-                                <a target="_blank"  href="https://drive.google.com/file/d/1bEiIZ20XolUoVG4apCuJo7e-mwm4s61U/" rel="noreferrer"><button  data-aos='fade-up'>download cv</button></a>
+                                <a target="_blank"  href="https://drive.google.com/file/d/1STfrCj3EkQi8Yh_oz7v6cgVUFvN9LMgx/view?usp=sharing" rel="noreferrer"><button  data-aos='fade-up'>download cv</button></a>
                         </div>
                         <div className="col-lg-8 col-md-8 col-sm-12 col-12">
                             <Services/>
